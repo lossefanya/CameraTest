@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "OverlayView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, weak) IBOutlet UIButton *cameraButton;
 
 @end
 
@@ -22,6 +25,19 @@
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 	// Dispose of any resources that can be recreated.
+}
+
+- (IBAction)showCamera:(id)sender {
+	OverlayView *overlayView = [[OverlayView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+	UIImagePickerController *imagePicker = [UIImagePickerController new];
+	imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+	imagePicker.showsCameraControls = NO;
+	imagePicker.cameraOverlayView = overlayView;
+	imagePicker.delegate = overlayView;
+	imagePicker.cameraViewTransform = CGAffineTransformMakeTranslation(0.0, 71.0);
+	imagePicker.cameraViewTransform = CGAffineTransformScale(imagePicker.cameraViewTransform, 1.333333, 1.333333);
+	overlayView.imagePicker = imagePicker;
+	[self presentViewController:imagePicker animated:YES completion:nil];
 }
 
 @end

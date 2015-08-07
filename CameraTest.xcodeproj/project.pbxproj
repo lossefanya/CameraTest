@@ -14,6 +14,14 @@
 		B16D96CF1B74ECAA0010ACCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16D96CE1B74ECAA0010ACCE /* Images.xcassets */; };
 		B16D96D21B74ECAA0010ACCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16D96D01B74ECAA0010ACCE /* LaunchScreen.xib */; };
 		B16D96DE1B74ECAA0010ACCE /* CameraTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D96DD1B74ECAA0010ACCE /* CameraTestTests.m */; };
+		B16D96E91B74EDA40010ACCE /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D96E81B74EDA40010ACCE /* UIFactory.m */; };
+		B16D96EC1B74EDEC0010ACCE /* UIButton+ScaledImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D96EB1B74EDEC0010ACCE /* UIButton+ScaledImage.m */; };
+		B16D96EF1B74EDFE0010ACCE /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D96EE1B74EDFE0010ACCE /* OverlayView.m */; };
+		B16D96F61B74EFA60010ACCE /* FriendsSelectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D96F41B74EFA60010ACCE /* FriendsSelectionFooter.m */; };
+		B16D96F71B74EFA60010ACCE /* FriendsSelectionFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16D96F51B74EFA60010ACCE /* FriendsSelectionFooter.xib */; };
+		B16D96FB1B74F00D0010ACCE /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D96F91B74F00D0010ACCE /* FriendCell.m */; };
+		B16D96FC1B74F00D0010ACCE /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16D96FA1B74F00D0010ACCE /* FriendCell.xib */; };
+		B16D96FF1B74FECA0010ACCE /* FriendsSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D96FE1B74FECA0010ACCE /* FriendsSelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,20 @@
 		B16D96D71B74ECAA0010ACCE /* CameraTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16D96DC1B74ECAA0010ACCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B16D96DD1B74ECAA0010ACCE /* CameraTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraTestTests.m; sourceTree = "<group>"; };
+		B16D96E71B74EDA40010ACCE /* UIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
+		B16D96E81B74EDA40010ACCE /* UIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
+		B16D96EA1B74EDEC0010ACCE /* UIButton+ScaledImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ScaledImage.h"; sourceTree = "<group>"; };
+		B16D96EB1B74EDEC0010ACCE /* UIButton+ScaledImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ScaledImage.m"; sourceTree = "<group>"; };
+		B16D96ED1B74EDFE0010ACCE /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		B16D96EE1B74EDFE0010ACCE /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		B16D96F31B74EFA60010ACCE /* FriendsSelectionFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsSelectionFooter.h; sourceTree = "<group>"; };
+		B16D96F41B74EFA60010ACCE /* FriendsSelectionFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsSelectionFooter.m; sourceTree = "<group>"; };
+		B16D96F51B74EFA60010ACCE /* FriendsSelectionFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsSelectionFooter.xib; sourceTree = "<group>"; };
+		B16D96F81B74F00D0010ACCE /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		B16D96F91B74F00D0010ACCE /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
+		B16D96FA1B74F00D0010ACCE /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
+		B16D96FD1B74FECA0010ACCE /* FriendsSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsSelectView.h; sourceTree = "<group>"; };
+		B16D96FE1B74FECA0010ACCE /* FriendsSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsSelectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +110,20 @@
 				B16D96CB1B74ECAA0010ACCE /* Main.storyboard */,
 				B16D96CE1B74ECAA0010ACCE /* Images.xcassets */,
 				B16D96D01B74ECAA0010ACCE /* LaunchScreen.xib */,
+				B16D96E71B74EDA40010ACCE /* UIFactory.h */,
+				B16D96E81B74EDA40010ACCE /* UIFactory.m */,
+				B16D96EA1B74EDEC0010ACCE /* UIButton+ScaledImage.h */,
+				B16D96EB1B74EDEC0010ACCE /* UIButton+ScaledImage.m */,
+				B16D96ED1B74EDFE0010ACCE /* OverlayView.h */,
+				B16D96EE1B74EDFE0010ACCE /* OverlayView.m */,
+				B16D96FD1B74FECA0010ACCE /* FriendsSelectView.h */,
+				B16D96FE1B74FECA0010ACCE /* FriendsSelectView.m */,
+				B16D96F31B74EFA60010ACCE /* FriendsSelectionFooter.h */,
+				B16D96F41B74EFA60010ACCE /* FriendsSelectionFooter.m */,
+				B16D96F51B74EFA60010ACCE /* FriendsSelectionFooter.xib */,
+				B16D96F81B74F00D0010ACCE /* FriendCell.h */,
+				B16D96F91B74F00D0010ACCE /* FriendCell.m */,
+				B16D96FA1B74F00D0010ACCE /* FriendCell.xib */,
 				B16D96C11B74ECAA0010ACCE /* Supporting Files */,
 			);
 			path = CameraTest;
@@ -199,9 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16D96FC1B74F00D0010ACCE /* FriendCell.xib in Resources */,
 				B16D96CD1B74ECAA0010ACCE /* Main.storyboard in Resources */,
 				B16D96D21B74ECAA0010ACCE /* LaunchScreen.xib in Resources */,
 				B16D96CF1B74ECAA0010ACCE /* Images.xcassets in Resources */,
+				B16D96F71B74EFA60010ACCE /* FriendsSelectionFooter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16D96FB1B74F00D0010ACCE /* FriendCell.m in Sources */,
+				B16D96E91B74EDA40010ACCE /* UIFactory.m in Sources */,
+				B16D96FF1B74FECA0010ACCE /* FriendsSelectView.m in Sources */,
+				B16D96EF1B74EDFE0010ACCE /* OverlayView.m in Sources */,
+				B16D96F61B74EFA60010ACCE /* FriendsSelectionFooter.m in Sources */,
 				B16D96CA1B74ECAA0010ACCE /* ViewController.m in Sources */,
 				B16D96C71B74ECAA0010ACCE /* AppDelegate.m in Sources */,
+				B16D96EC1B74EDEC0010ACCE /* UIButton+ScaledImage.m in Sources */,
 				B16D96C41B74ECAA0010ACCE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
